@@ -15,7 +15,7 @@ class ShopScreen extends StatelessWidget {
           alignment: Alignment.centerLeft,
           padding: EdgeInsets.all(25),
           color: Colors.white,
-          child: Text('На неделю, 26 мая - 1 инюн.',
+          child: Text('На неделю, 4 инюн. - 4июн.',
               style: TextStyle(fontWeight: FontWeight.w500, fontSize: 18)),
         ),
         Expanded(

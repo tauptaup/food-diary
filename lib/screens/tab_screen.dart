@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:qwe1/screens/nutri_steppe_screen.dart';
 import 'package:qwe1/screens/profile_screen.dart';
 import 'package:qwe1/screens/ricep_screen.dart';
 import 'package:qwe1/screens/shop_screen.dart';
@@ -33,6 +35,21 @@ class _TabScreenState extends State<TabScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        systemOverlayStyle: SystemUiOverlayStyle(
+          // Status bar color
+          statusBarColor: Colors.white,
+
+          // Status bar brightness (optional)
+          statusBarIconBrightness: Brightness.dark, // For Android (dark icons)
+          statusBarBrightness: Brightness.light, // For iOS (dark icons)
+        ),
+        leading: IconButton(
+            icon: Icon(
+              FontAwesomeIcons.piedPiperAlt,
+              color: Theme.of(context).accentColor,
+            ),
+            onPressed: () =>
+                Navigator.of(context).pushNamed(NutriSteppeScreen.routeName)),
         elevation: 1,
         backgroundColor: Colors.white,
         centerTitle: true,

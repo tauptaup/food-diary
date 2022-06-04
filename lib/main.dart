@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:qwe1/screens/nutri_steppe_screen.dart';
 import 'package:qwe1/widgets/home/diar_screen.dart';
 import 'screens/tab_screen.dart';
 import 'widgets/home/home_tab.dart';
@@ -16,6 +18,7 @@ class MyApp extends StatelessWidget {
     final newTextTheme = Theme.of(context).textTheme.apply(
           bodyColor: Color(0xFF2d2d2d),
           displayColor: Color(0xFF2d2d2d),
+          fontFamily: 'Poppins',
         );
 
     return MaterialApp(
@@ -32,12 +35,14 @@ class MyApp extends StatelessWidget {
               600: Color(0xFF5E81AC),
               700: Color(0xFF5E81AC),
             }),
+            fontFamily: 'Poppins',
             accentColor: Color(0xFF72bf34),
             canvasColor: Color.fromARGB(255, 245, 245, 245)),
         home: TabScreen(),
         routes: {
           HomeTab.routeName: (context) => HomeTab(),
           DiarScreen.routeName: (context) => DiarScreen(),
+          NutriSteppeScreen.routeName: (context) => NutriSteppeScreen(),
         });
   }
 }

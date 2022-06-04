@@ -114,7 +114,7 @@ class RicepItem extends StatelessWidget {
                   width: 110,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15),
-                    child: Image.asset('assets/images/asd.jpg'),
+                    child: Image.asset('assets/images/zxc.jpg'),
                   ),
                 ),
                 SizedBox(width: 10),
@@ -131,7 +131,7 @@ class RicepItem extends StatelessWidget {
                   width: 110,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15),
-                    child: Image.asset('assets/images/asd.jpg'),
+                    child: Image.asset('assets/images/zxc2.jpg'),
                   ),
                 ),
                 SizedBox(width: 10),
@@ -148,7 +148,7 @@ class RicepItem extends StatelessWidget {
                   width: 110,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15),
-                    child: Image.asset('assets/images/asd.jpg'),
+                    child: Image.asset('assets/images/zxc3.jpg'),
                   ),
                 ),
                 SizedBox(width: 10),

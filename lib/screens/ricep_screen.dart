@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:qwe1/widgets/ricep/ricep_block.dart';
 import 'package:qwe1/widgets/ricep/ricep_carousel.dart';
 import 'package:qwe1/widgets/ricep/ricep_item.dart';
